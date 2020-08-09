@@ -1,0 +1,1446 @@
+{
+	"templates": [
+		{
+			"template": "default",
+			"icon": "icons/obj/tcg.dmi",
+			"series": "f13_perkcards"
+		}
+	],
+	"cards": [
+		{
+			"id": "bandolier",
+			"name": "Bandolier",
+			"desc": "Need. More. Bullets.",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "barbarian",
+			"name": "Barbarian",
+			"desc": "Channel your inner Grognak!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "basher",
+			"name": "Basher",
+			"desc": "Get up close and personal!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "bear_arms",
+			"name": "Bear Arms",
+			"desc": "Your bear-like arms help you bear bigger arms.",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "blocker",
+			"name": "Blocker",
+			"desc": "Brace for impact!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "bullet_shield",
+			"name": "Bullet Shield",
+			"desc": "The best protection is a hail of bullets!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "full_charge",
+			"name": "Full Charge",
+			"desc": "Lift your feet!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "gladiator",
+			"name": "Gladiator",
+			"desc": "Spartacus, shmartacus!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "heavy_gunner",
+			"name": "Heavy Gunner",
+			"desc": "Big guns, big damage!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "incisor",
+			"name": "Incisor",
+			"desc": "Aim for the joints!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "iron_fist",
+			"name": "Iron Fist",
+			"desc": "Channel your chi to unleash devasting fury!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "lock_and_load",
+			"name": "Lock and Load",
+			"desc": "Maximize the pain on your target!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "martial_artist",
+			"name": "Martial Artist",
+			"desc": "Light as paper, hard as steel.",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "ordnance_express",
+			"name": "Ordnance Express",
+			"desc": "You are an explosive freight train, literally.",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "pack_rat",
+			"name": "Pack Rat",
+			"desc": "You see beauty in the rubbish.",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "pain_train",
+			"name": "Pain Train",
+			"desc": "Choo choo! All aboard!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "scattershot",
+			"name": "Scattershot",
+			"desc": "You were born to shoot buckshot!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "shotgunner",
+			"name": "Shotgunner",
+			"desc": "Pump action is your kind of action.",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "slugger",
+			"name": "Slugger",
+			"desc": "Swing for the fences!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "strong_back",
+			"name": "Strong Back",
+			"desc": "What are you, part pack mule?",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "sturdy_frame",
+			"name": "Sturdy Frame",
+			"desc": "You were built like a brick house.",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "travelling_pharmacy",
+			"name": "Travelling Pharmacy",
+			"desc": "You're great at getting boosted... on the go!",
+			"icon_state": "strength",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "archer",
+			"name": "Archer",
+			"desc": "A proper release should surprise even the archer.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "awareness",
+			"name": "Awareness",
+			"desc": "To defeat your enemies, know their weaknesses!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "bow_before_me",
+			"name": "Bow Before Me",
+			"desc": "Your arrows always hit where their armor isn't.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "butchers_bounty",
+			"name": "Butcher's Bounty",
+			"desc": "You aren't afraid to dig a little deeper to get what you want.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "commando",
+			"name": "Commando",
+			"desc": "",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "concentrated_fire",
+			"name": "Concentrated Fire",
+			"desc": "Stay focused!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "crack_shot",
+			"name": "Crack Shot",
+			"desc": "You don't have to shoot first, just hit first.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "exterminator",
+			"name": "Exterminator",
+			"desc": "Someone call an exterminator?",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "fire_in_the_hole",
+			"name": "Fire in the Hole",
+			"desc": "Put it there!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "fortune_finder",
+			"name": "Fortune Finder",
+			"desc": "You're a human metal detector.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "glow_sight",
+			"name": "Glow Sight",
+			"desc": "The weak spots glow brighter.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "green_thumb",
+			"name": "Green Thumb",
+			"desc": "Your thumb's gone green from all the radioactive plants!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "grenadier",
+			"name": "Grenadier",
+			"desc": "Cool people don't look at explosions.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "ground_pounder",
+			"name": "Ground Pounder",
+			"desc": "The battlefield is your happy place!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "long_shot",
+			"name": "Long Shot",
+			"desc": "Keep your distance long and your kill-count high.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "night_eyes",
+			"name": "Night Eyes",
+			"desc": "Night shift in the Vault honed your eyesight!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "night_person",
+			"name": "Night Person",
+			"desc": "You are a creature of the night!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "pannapictagraphist",
+			"name": "Pannapictagraphist",
+			"desc": "You can just hear those sweet, sweet zines!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "perceptibobble",
+			"name": "Percepti-bobble",
+			"desc": "Gettin' warm!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "picklock",
+			"name": "Picklock",
+			"desc": "Uncover the secrets of the Wasteland, whether they want you to or not!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "refractor",
+			"name": "Refractor",
+			"desc": "You must be part mirror!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "rifleman",
+			"name": "Rifleman",
+			"desc": "Keep your distance long and your kill-count high.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "skeet_shooter",
+			"name": "Skeet Shooter",
+			"desc": "Pull!",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "sniper",
+			"name": "Sniper",
+			"desc": "It's all about focus.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "tank_killer",
+			"name": "Tank Killer",
+			"desc": "You are a human can opener.",
+			"icon_state": "perception",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "adamantium_skeleton",
+			"name": "Adamantium Skeleton",
+			"desc": "Your skeleton has been infused with indestructible metal!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "all_night_long",
+			"name": "All Night Long",
+			"desc": "One more mile!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "aquaboy",
+			"name": "Aquaboy",
+			"desc": "Water is your ally.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "cannibal",
+			"name": "Cannibal",
+			"desc": "Feast on mortal flesh to heal your wounds!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "chem_fiend",
+			"name": "Chem Fiend",
+			"desc": "Far out!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "chem_resistant",
+			"name": "Chem Resistant",
+			"desc": "All the rush without the hassle!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "cola_nut",
+			"name": "Cola Nut",
+			"desc": "Zap that thirst!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "dromedary",
+			"name": "Dromedary",
+			"desc": "Is that a hump on your back?",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "fireproof",
+			"name": "Fireproof",
+			"desc": "Ultracite exposure has made you fireproof!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "ghoulish",
+			"name": "Ghoulish",
+			"desc": "Sure, you're still human - on the outside!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "good_doggy",
+			"name": "Good Doggy",
+			"desc": "You've learned to live like man's best friend.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "hydro_fix",
+			"name": "Hydro Fix",
+			"desc": "Just a little at a time keeps the thirst away.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "homebody",
+			"name": "Homebody",
+			"desc": "Home is where the heart is.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "iron_stomach",
+			"name": "Iron Stomach",
+			"desc": "Is tonight's dinner Rotting Roadkill Goulash Surprise? No problem!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "ironclad",
+			"name": "Ironclad",
+			"desc": "The knights had it right!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "lead_belly",
+			"name": "Lead Belly",
+			"desc": "Your digestive tract has adjusted to the weirdness of the Wasteland!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "lifegiver",
+			"name": "Lifegiver",
+			"desc": "You embody wellness!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "munchy_resistance",
+			"name": "Munchy Resistance",
+			"desc": "All the hanker without the hunger!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "natural_resistance",
+			"name": "Natural Resistance",
+			"desc": "You're as healthy as a horse! Or deathclaw.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "noctural_fortitude",
+			"name": "Nocturnal Fortitude",
+			"desc": "Darkness is power!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "photosynthetic",
+			"name": "Photosynthetic",
+			"desc": "Mmmm, that sunlight is delicious.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "professional_drinker",
+			"name": "Professional Drinker",
+			"desc": "Your liver works hard for the money!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "rad_resistant",
+			"name": "Rad Resistant",
+			"desc": "Exposure to the Wasteland had made you more resilient.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "radicool",
+			"name": "Radicool",
+			"desc": "What does not kill you makes you stronger!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "rejuvenated",
+			"name": "Rejuvenated",
+			"desc": "Food for the body and soul.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "revenant",
+			"name": "Revenant",
+			"desc": "Rise from the dead stronger than before!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "slow_metabolizer",
+			"name": "Slow Metabolizer",
+			"desc": "Your body does more with less!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "solar_powered",
+			"name": "Solar Powered",
+			"desc": "Catch some rays!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "sun_kissed",
+			"name": "Sun Kissed",
+			"desc": "Fight rays with rays.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "thirst_quencher",
+			"name": "Thirst Quencher",
+			"desc": "Your system filters liquids to the EXTREME.",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "vaccinated",
+			"name": "Vaccinated",
+			"desc": "Good thing you're up to date on all 2316 vaccines!",
+			"icon_state": "endurance",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "animal_friend",
+			"name": "Animal Friend",
+			"desc": "Commune with beasts.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "anti_epidemic",
+			"name": "Anti-Epidemic",
+			"desc": "You're a happy doc. Your cures are contagious.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "bloodsucker",
+			"name": "Bloodsucker",
+			"desc": "At least you're an efficient bloodsucker!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "bodyguards",
+			"name": "Bodyguards",
+			"desc": "Friends are nice - bodyguards are better!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "emt",
+			"name": "E.M.T.",
+			"desc": "No one dies on your watch!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "field_surgeon",
+			"name": "Field Surgeon",
+			"desc": "The Wasteland is your operating room!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "friendly_fire",
+			"name": "Friendly Fire",
+			"desc": "You majored in aggressive cauterization.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "happy_camper",
+			"name": "Happy Camper",
+			"desc": "There's no place like home!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "happy_go_lucky",
+			"name": "Happy-Go-Lucky",
+			"desc": "Everything goes better after a drink.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "hard_bargain",
+			"name": "Hard Bargain",
+			"desc": "You've mastered the art of the deal!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "healing_hands",
+			"name": "Healing Hands",
+			"desc": "You've got hands of lead.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "injector",
+			"name": "Injector",
+			"desc": "Up and at 'em!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "inspirational",
+			"name": "Inspirational",
+			"desc": "You've got the people skills of a president!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "lone_wanderer",
+			"name": "Lone Wanderer",
+			"desc": "Who needs friends, anyway?",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "magnetic_personality",
+			"name": "Magnetic Personality",
+			"desc": "You are the original social butterfly.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "overly_generous",
+			"name": "Overly Generous",
+			"desc": "Radiation, the gift that keeps on giving!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "party_boy",
+			"name": "Party Boy",
+			"desc": "Nobody has a good time like you!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "philanthropist",
+			"name": "Philanthropist",
+			"desc": "Share and share alike!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "quack_surgeon",
+			"name": "Quack Surgeon",
+			"desc": "That'll wake you up in the mornin'!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "rad_sponge",
+			"name": "Rad Sponge",
+			"desc": "Soak up those rads!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "spiritual_healer",
+			"name": "Spiritual Healer",
+			"desc": "Your spirit thrives when helping others.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "squad_maneuvers",
+			"name": "Squad Maneuvers",
+			"desc": "Squad! Move out! Go go go!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "strange_in_numbers",
+			"name": "Strange in Numbers",
+			"desc": "Mutants unite!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "suppressor",
+			"name": "Suppressor",
+			"desc": "Put the fear of you into them!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "team_medic",
+			"name": "Team Medic",
+			"desc": "Don't you die on me!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "tenderizer",
+			"name": "Tenderizer",
+			"desc": "Make them look like Swiss Cheese!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "travel_agent",
+			"name": "Travel Agent",
+			"desc": "You've got friends where it counts.",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "wasteland_whisperer",
+			"name": "Wasteland Whisperer",
+			"desc": "Master the post-apocalypse!",
+			"icon_state": "charisma",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "armorer",
+			"name": "Armorer",
+			"desc": "Build better armor for your benefit!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "batteries_included",
+			"name": "Batteries Included",
+			"desc": "You're a power saver!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "chemist",
+			"name": "Chemist",
+			"desc": "You're good with chemicals, periodically.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "contractor",
+			"name": "Contractor",
+			"desc": "Quality over quantity!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "demolition_expert",
+			"name": "Demolition Expert",
+			"desc": "The bigger the boom, the better!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "first_aid",
+			"name": "First Aid",
+			"desc": "Is there a doctor in the house?",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "fix_it_good",
+			"name": "Fix It Good",
+			"desc": "It's better than new!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "gunsmith",
+			"name": "Gunsmith",
+			"desc": "You know your guns, inside and out!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "hacker",
+			"name": "Hacker",
+			"desc": "Penetrate terminal security with cutting-edge encryption knowledge.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "licensed_plumber",
+			"name": "Licensed Plumber",
+			"desc": "Your Vault job has finally paid off!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "makeshift_warrior",
+			"name": "Makeshift Warrior",
+			"desc": "All you need is some ingenuity and duct tape.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "nerd_rage",
+			"name": "Nerd Rage!",
+			"desc": "Genius. Is. ANGRY!",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "pharmacist",
+			"name": "Pharmacist",
+			"desc": "Take two of these and never call me again.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "portable_power",
+			"name": "Portable Power",
+			"desc": "Introducing the Power Armor Carrying Kit.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "power_smith",
+			"name": "Power Smith",
+			"desc": "Achieve world class defense with Power Armor prototypes.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "power_patcher",
+			"name": "Power Patcher",
+			"desc": "The trick is to keep it oiled.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "power_user",
+			"name": "Power User",
+			"desc": "Dominate the Wasteland with impunity.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "robotics_expert",
+			"name": "Robotics Expert",
+			"desc": "Machines will always serve humans, if you have anything to say about it.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "science",
+			"name": "Science",
+			"desc": "Focused mind, focused light.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "scrapper",
+			"name": "Scrapper",
+			"desc": "You're well versed in ripping apart junk.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "stabilized",
+			"name": "Stabilized",
+			"desc": "Good thing you installed shock absorbers.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "weapon_artisan",
+			"name": "Weapon Artisan",
+			"desc": "Weapon repair is an art.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "wrecking_ball",
+			"name": "Wrecking Ball",
+			"desc": "You are a literal home wrecker.",
+			"icon_state": "intelligence",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "action_boy",
+			"name": "Action Boy",
+			"desc": "There's no time to waste!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "adrenaline",
+			"name": "Adrenaline",
+			"desc": "Living on the edge!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "ammosmith",
+			"name": "Ammosmith",
+			"desc": "You've become quite the wildcat.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "born_survivor",
+			"name": "Born Survivor",
+			"desc": "You're a born survivor!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "covert_operative",
+			"name": "Covert Operative",
+			"desc": "You've read every Covert Operations Manual ever written, twice.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "dead_man_sprinting",
+			"name": "Dead Man Sprinting",
+			"desc": "Burst into the afterlife at a full sprint!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "dodgy",
+			"name": "Dodgy",
+			"desc": "Dodge bullets and roll with the punches.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "enforcer",
+			"name": "Enforcer",
+			"desc": "No one escapes from you.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "escape_artist",
+			"name": "Escape Artist",
+			"desc": "You can vanish into any corner.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "evasive",
+			"name": "Evasive",
+			"desc": "Reflexes are better than armor anyway.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "goat_legs",
+			"name": "Goat Legs",
+			"desc": "You must be double-jointed!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "guerilla",
+			"name": "Guerilla",
+			"desc": "You're trained for close quarters shooting.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "gun_fu",
+			"name": "Gun Fu",
+			"desc": "You've mastered the art of gun fu.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "gun_runner",
+			"name": "Gun Runner",
+			"desc": "Carry light and run fast.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "gunslinger",
+			"name": "Gunslinger",
+			"desc": "Channel the spirit of the Old West!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "home_defense",
+			"name": "Home Defense",
+			"desc": "Get off my lawn!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "light_footed",
+			"name": "Light Footed",
+			"desc": "Don't step here!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "marathoner",
+			"name": "Marathoner",
+			"desc": "You're going the distance!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "mister_sandman",
+			"name": "Mister Sandman",
+			"desc": "Murder in the dark!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "modern_renegade",
+			"name": "Modern Renegade",
+			"desc": "Today's skill, yesterday's style!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "moving_target",
+			"name": "Moving Target",
+			"desc": "They can't hurt what they can't hit!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "ninja",
+			"name": "Ninja",
+			"desc": "You trained as a shadow warrior.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "packin_light",
+			"name": "Packin' Light",
+			"desc": "Packing light doesn't mean packing little!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "secret_agent",
+			"name": "Secret Agent",
+			"desc": "You're trained for reconnaissance and subterfuge.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "sneak",
+			"name": "Sneak",
+			"desc": "Become whisper, become shadow.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "thru_hiker",
+			"name": "Thru-hiker",
+			"desc": "You have learned the art of proper weight distribution.",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "white_knight",
+			"name": "White Knight",
+			"desc": "Keep it clean and it lasts longer!",
+			"icon_state": "agility",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "better_criticals",
+			"name": "Better Criticals",
+			"desc": "You're a master of striking gold.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "bloody_mess",
+			"name": "Bloody Mess",
+			"desc": "Watch out for flying eyeballs!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "can_do",
+			"name": "Can Do!",
+			"desc": "Yes you can!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "cap_collector",
+			"name": "Cap Collector",
+			"desc": "You've tapped the Wasteland's hidden wealth.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "class_freak",
+			"name": "Class Freak",
+			"desc": "You always were the odd kid.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "critical_savvy",
+			"name": "Critical Savvy",
+			"desc": "You've got a critical eye.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "curator",
+			"name": "Curator",
+			"desc": "You're a keeper!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "dry_nurse",
+			"name": "Dry Nurse",
+			"desc": "You've mastered the placebo effect!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "four_leaf_clover",
+			"name": "Four Leaf Clover",
+			"desc": "You've got the luck of the Irish.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "good_with_salt",
+			"name": "Good with Salt",
+			"desc": "You're so salty, it rubs off on your food!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "grim_reapers_spring",
+			"name": "Grim Reaper's Sprint",
+			"desc": "Go for the gold!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "junk_shield",
+			"name": "Junk Shield",
+			"desc": "Who needs armor when you've got so much junk?",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "last_laugh",
+			"name": "Last Laugh",
+			"desc": "You find humor in death, your own specifically.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "luck_of_the_draw",
+			"name": "Luck of the Draw",
+			"desc": "Make or break, you keep fighting.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "lucky_break",
+			"name": "Lucky Break",
+			"desc": "If it ain't broke, don't fix it!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "mysterious_savior",
+			"name": "Mysterious Savior",
+			"desc": "Victus fortuna iuvat.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "mysterious_stranger",
+			"name": "Mysterious Stranger",
+			"desc": "Who is he? Why does he help? Who cares!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "mystery_meat",
+			"name": "Mystery Meat",
+			"desc": "The side effects are harmless! Mostly...",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "one_gun_army",
+			"name": "One Gun Army",
+			"desc": "You don't need an army. You ARE the army!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "pharma_farma",
+			"name": "Pharma Farma",
+			"desc": "Chems don't grow on trees. Or do they?",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "psychopath",
+			"name": "Psychopath",
+			"desc": "Kill! Kill! Muahaha!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "quick_hands",
+			"name": "Quick Hands",
+			"desc": "In combat, there's no time to hesitate.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "ricochet",
+			"name": "Ricochet",
+			"desc": "What goes around comes around!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "scrounger",
+			"name": "Scrounger",
+			"desc": "Keep the fight going!",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "serendipity",
+			"name": "Serendipity",
+			"desc": "Fortune favors the bold.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "starched_genes",
+			"name": "Starched Genes",
+			"desc": "",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "storm_chaser",
+			"name": "Storm Chaser",
+			"desc": "A little rain is good for the soul.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "super_duper",
+			"name": "Super Duper",
+			"desc": "You've always seen double.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "tormentor",
+			"name": "Tormentor",
+			"desc": "You like to play with your food.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "woodchucker",
+			"name": "Woodchucker",
+			"desc": "You can chuck more wood than a woodchuck chucks.",
+			"icon_state": "luck",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "adrenal_reaction",
+			"name": "Adrenal Reaction",
+			"desc": "You're at your best when you're on your last legs.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "bird_bones",
+			"name": "Bird Bones",
+			"desc": "You take falls like a champ.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "carnivore",
+			"name": "Carnivore",
+			"desc": "You love a meaty meal.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "chameleon",
+			"name": "Chameleon",
+			"desc": "You're a master of blending in.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "eagle_eyes",
+			"name": "Eagle Eyes",
+			"desc": "Your eyesight's at an all time high.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "egg_head",
+			"name": "Egg Head",
+			"desc": "Your brain's bigger than your brawn.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "electrically_charged",
+			"name": "Electrically Charged",
+			"desc": "You've got an electifying personality.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "empath",
+			"name": "Empath",
+			"desc": "You're an emotional person.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "grounded",
+			"name": "Grounded",
+			"desc": "You're down to earth.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "healing_factor",
+			"name": "Healing Factor",
+			"desc": "You're a believer in natural remedies.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "herbivore",
+			"name": "Herbivore",
+			"desc": "You love a good salad.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "herd_mentality",
+			"name": "Herd Mentality",
+			"desc": "You work well in groups.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "marsupial",
+			"name": "Marsupial",
+			"desc": "You've got a spring in your step.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "plague_walker",
+			"name": "Plague Walker",
+			"desc": "You're a one-man bioweapon.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "scaly_skin",
+			"name": "Scaly Skin",
+			"desc": "You've got a rough side.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "speed_demon",
+			"name": "Speed Demon",
+			"desc": "You like to live fast.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "talons",
+			"name": "Talons",
+			"desc": "You've got a hell of a handshake.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "twisted_muscles",
+			"name": "Twisted Muscles",
+			"desc": "You never skip leg day. Or arm day. Or any day, really.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		},
+		{
+			"id": "unstable_isotope",
+			"name": "Unstable Isotope",
+			"desc": "You're brimming with energy.",
+			"icon_state": "mutation",
+			"rarity": "uncommon"
+		}
+	]
+}
