@@ -1,20 +1,47 @@
-/datum/reagent/consumable/ethanol/nukashine
+/datum/reagent/consumable/ethanol/nukashine //this stuff makes you faster and stronger, although it also kills your liver in literal seconds, so...
 	name = "Nukashine"
 	description = "The best drink a college freshman could ask for."
 	color = "#15F4EE"
 	quality = DRINK_FANTASTIC
-	boozepwr = 150
+	boozepwr = 300
 	taste_description = "imminent liver death"
 	glass_icon_state = "whiskeycolaglass"
 	glass_name = "glass of Nukashine"
 	glass_desc = "You feel wasted just looking at this."
 
-/datum/reagent/consumable/ethanol/victory_nukashine
+/datum/reagent/consumable/ethanol/nukashine/on_mob_metabolize(mob/living/L)
+	..()
+	L.add_movespeed_modifier(/datum/movespeed_modifier/reagent/methamphetamine)
+	L.overlay_fullscreen("nukashine", /obj/screen/fullscreen/color_vision/blue)
+	to_chat(M, "<span class='swarmer'>Your liver burns with pain as you drink the Nukashine!</span>")
+
+/datum/reagent/consumable/ethanol/nukashine/on_mob_end_metabolize(mob/living/L)
+	L.remove_movespeed_modifier(/datum/movespeed_modifier/reagent/methamphetamine)
+	L.clear_fullscreen("nukashine")
+	to_chat(M, "<span class='swarmer'>Against all odds, you've survived your experience with Nukashine... but at what cost?</span>")
+	..()
+
+/datum/reagent/consumable/ethanol/nukashine/on_mob_life(mob/living/carbon/M)
+	SEND_SIGNAL(M, COMSIG_ADD_MOOD_EVENT, "nukashine", /datum/mood_event/nukashine, name)
+	M.AdjustStun(-40, FALSE)
+	M.AdjustKnockdown(-40, FALSE)
+	M.AdjustUnconscious(-40, FALSE)
+	M.AdjustParalyzed(-40, FALSE)
+	M.AdjustImmobilized(-40, FALSE)
+	M.adjustStaminaLoss(-2, 0)
+	M.Jitter(2)
+	M.adjustOrganLoss(ORGAN_SLOT_LIVER, rand(5,10))
+	M.adjustOrganLoss(ORGAN_SLOT_BRAIN, 4)
+	M.hallucination += 5
+	if((M.mobility_flags & MOBILITY_MOVE) && !ismovable(M.loc))
+		step(M, pick(GLOB.cardinals))
+		step(M, pick(GLOB.cardinals))
+	..()
+
+/datum/reagent/consumable/ethanol/nukashine/victory_nukashine
 	name = "Lady Liberty Nukashine"
 	description = "Patriotic enough to make a bald eagle shed a single tear of freedom."
 	color = "#E3931D"
-	quality = DRINK_FANTASTIC
-	boozepwr = 150
 	taste_description = "imminent yet patriotic liver death"
 	glass_icon_state = "whiskeycolaglass"
 	glass_name = "glass of Lady Liberty Nukashine"
@@ -41,6 +68,14 @@
 	glass_icon_state = "whiskeycolaglass"
 	glass_name = "glass of wasteland tequila"
 	glass_desc = "You feel like the Mexicans wouldn't approve."
+
+/datum/reagent/consumable/ethanol/waster_tequila/on_mob_life(mob/living/carbon/M)
+	if(M.getToxLoss() && prob(20))
+		M.adjustToxLoss(-1*REM, 0)
+		. = 1
+	if(holder.has_reagent(/datum/reagent/toxin))
+		holder.remove_reagent(/datum/reagent/toxin, 0.5)
+	..()
 
 /datum/reagent/consumable/ethanol/ballistic_bock
 	name = "Ballistic Bock"
@@ -119,6 +154,11 @@
 	glass_name = "glass of firecracker whiskey"
 	glass_desc = "If colleges still existed, they'd probably drink this there."
 
+/datum/reagent/consumable/ethanol/firecracker_whiskey/on_mob_life(mob/living/carbon/M)
+	M.adjust_bodytemperature(25 * TEMPERATURE_DAMAGE_COEFFICIENT, 0, M.get_body_temp_normal())
+	..()
+	. = 1
+
 /datum/reagent/consumable/ethanol/lead_champagne
 	name = "Lead Champagne"
 	description = "Are you sure this is safe to drink?"
@@ -129,6 +169,11 @@
 	glass_icon_state = "whiskeycolaglass"
 	glass_name = "glass of lead champagne"
 	glass_desc = "May result in brain damage."
+
+/datum/reagent/consumable/ethanol/lead_champagne/on_mob_life(mob/living/carbon/M)
+	if(prob(20))
+		M.adjustOrganLoss(ORGAN_SLOT_BRAIN, pick(0.1, 0.2, 0.3, 0.4, 0.5))
+	..()
 
 /datum/reagent/consumable/ethanol/mountain_honey
 	name = "Mountain Honey"
@@ -151,6 +196,10 @@
 	glass_icon_state = "whiskeycolaglass"
 	glass_name = "glass of Roentgum Rum"
 	glass_desc = "Probably not safe for human consumption... not that that's stopped anyone before."
+
+/datum/reagent/consumable/ethanol/roentgen_rum/on_mob_life(mob/living/carbon/M)
+	M.adjust_blurriness(1)
+	..()
 
 //Mixed Drinks
 
@@ -187,6 +236,11 @@
 	glass_name = "Cuban Missile Crisis"
 	glass_desc = "Best made with Cuban rum, if it's even still available."
 
+/datum/reagent/consumable/ethanol/cuban_missile_crisis/on_mob_life(mob/living/carbon/M)
+	if(prob(5))
+		playsound(get_turf(M), 'sound/effects/explosionfar.ogg', 100, TRUE)
+	return ..()
+
 /datum/reagent/consumable/ethanol/three_mile_island_f13
 	name = "Three Mile Island Iced Tea"
 	description = "The liquor cabinet, brought together in a delicious mix, and married perfectly with Nuka-Cola."
@@ -195,7 +249,7 @@
 	quality = DRINK_VERYGOOD
 	taste_description = "a mixture of cola and alcohol"
 	glass_icon_state = "longislandicedteaglass"
-	glass_name = "Long Island Iced Tea"
+	glass_name = "Three Mile Island Iced Tea"
 	glass_desc = "The liquor cabinet, brought together in a delicious mix, and married perfectly with Nuka-Cola."
 
 /datum/reagent/consumable/ethanol/fernet_nuka
@@ -275,6 +329,10 @@
 	glass_name = "glass of Nuka-Bombdrop"
 	glass_desc = "You can feel your head pounding already."
 
+/datum/reagent/consumable/ethanol/nuka_bombdrop/on_mob_metabolize(mob/living/M)
+	playsound(M, 'sound/effects/explosion_distant.ogg', 100, FALSE)
+	..()
+
 /datum/reagent/consumable/ethanol/nuka_cide
 	name = "Nuka-Cide"
 	description = "One of everything, please!"
@@ -329,6 +387,18 @@
 	glass_icon_state = "whiskeycolaglass"
 	glass_name = "Sierra Nevada Martini"
 	glass_desc = "Guaranteed to give you at least one debilitating health condition."
+	addiction_threshold = 10
+
+/datum/reagent/consumable/ethanol/sm_martini/on_mob_metabolize(mob/living/M)
+	M.adjustBruteLoss(-0.5, 0)
+	M.adjustFireLoss(-0.5, 0)
+	M.adjustToxLoss(1, 0)
+	M.Jitter(5)
+	if(prob(20))
+		M.emote(pick("twitch","drool","moan"))
+	if(prob(1))
+		M.drop_all_held_items()
+	..()
 
 /datum/reagent/consumable/ethanol/vier_bier_prost
 	name = "Vier-Bier-Prost"

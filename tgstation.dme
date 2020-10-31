@@ -3105,6 +3105,7 @@
 #include "code\modules\zombie\organs.dm"
 #include "fallout\__DEFINES\jobs.dm"
 #include "fallout\areas\area.dm"
+#include "fallout\datums\mood_events\drug_events.dm"
 #include "fallout\effects\landmarks.dm"
 #include "fallout\effects\spawners\falloutloot.dm"
 #include "fallout\fishing\fish.dm"

@@ -118,6 +118,15 @@
 	glass_name = "glass of Nuka-Cola My Blood's In It"
 	glass_desc = "A spoonful of sugar helps the medicine go down."
 
+/datum/reagent/consumable/nuka_vaccinated/on_mob_life(mob/living/carbon/M)
+	M.adjustToxLoss(-0.2, 0, TRUE)
+	for(var/thing in M.diseases)
+		var/datum/disease/D = thing
+		if(D.severity == DISEASE_SEVERITY_POSITIVE)
+			continue
+		D.cure()
+	..()
+
 /datum/reagent/consumable/nuka_fusion
 	name = "Nuka-Fusion"
 	description = "A wildcat beverage made by a Nuka-Cola fanatic."
