@@ -520,3 +520,14 @@
 	glass_icon_state = "whiskeycolaglass"
 	glass_name = "Coolant Pump"
 	glass_desc = "It's dark, it's bitter, and it's refreshing."
+
+/datum/reagent/consumable/ethanol/waster_tea
+	name = "Waster's Tea"
+	description = "A lightly alcoholic hot drink. Tastes medicinal."
+	taste_description = "medicine"
+	boozepwr = 10
+	quality = DRINK_NICE
+	color = "#fff44f"
+	glass_icon_state = "whiskeycolaglass"
+	glass_name = "Waster's Tea"
+	glass_desc = "Light citrus tea with a few special ingredients."
