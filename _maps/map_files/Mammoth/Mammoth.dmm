@@ -2156,6 +2156,12 @@
 /obj/effect/decal/cleanable/blood/splatter,
 /turf/open/floor/plating/ground/mountain,
 /area/ms13/sunny_dale)
+"bsz" = (
+/obj/structure/chair/comfy/ms13/retro{
+	dir = 1
+	},
+/turf/open/floor/plasteel/ms13/white,
+/area/ms13/underground/vault_atrium_upper)
 "bsI" = (
 /obj/structure/rack,
 /obj/item/clothing/gloves/boxing,
@@ -9561,7 +9567,10 @@
 /turf/open/floor/wood/ms13,
 /area/ms13/klamat)
 "gAK" = (
-/obj/structure/punching_bag,
+/obj/structure/table/ms13/metal,
+/obj/item/radio/intercom{
+	name = "pretend this is radio equipment"
+	},
 /turf/open/floor/plasteel/ms13/white,
 /area/ms13/underground/vault_atrium_upper)
 "gBp" = (
@@ -9975,7 +9984,6 @@
 /area/ms13/ncr_main)
 "gQN" = (
 /obj/machinery/door/unpowered/wooddoor,
-/obj/structure/barricade/wooden/crude,
 /turf/open/floor/plasteel/ms13/white,
 /area/ms13/underground/vault_atrium_upper)
 "gQX" = (
@@ -11166,6 +11174,12 @@
 	},
 /turf/open/floor/plating/ground/sidewalk,
 /area/ms13)
+"hGz" = (
+/obj/structure/closet/crate/ms13/footlocker{
+	dir = 4
+	},
+/turf/open/floor/plasteel/ms13/white,
+/area/ms13/underground/vault_atrium_upper)
 "hGP" = (
 /obj/effect/landmark/start/ms13/trooper,
 /obj/structure/bed/ms13/bedframe/cot,
@@ -13308,7 +13322,7 @@
 /turf/open/floor/plating/ground/mountain,
 /area/ms13/ncr_main)
 "jcl" = (
-/obj/structure/closet/crate/ms13/vault_tec/long,
+/obj/structure/closet/crate/ms13/vault_tec/long/pristine,
 /turf/open/floor/plasteel/ms13/white,
 /area/ms13/underground/vault_atrium_upper)
 "jcs" = (
@@ -16031,6 +16045,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/ms13/broken/slightlybroken2,
 /area/ms13/sunny_dale)
+"kZj" = (
+/obj/structure/closet/crate/ms13/cash_register{
+	dir = 4
+	},
+/turf/open/floor/plasteel/ms13/white,
+/area/ms13/underground/vault_atrium_upper)
 "kZn" = (
 /obj/structure/table/ms13/metal,
 /obj/item/kitchen/spoon/plastic,
@@ -16694,6 +16714,10 @@
 	dir = 4
 	},
 /area/ms13/sunny_dale)
+"lAU" = (
+/obj/structure/closet/crate/ms13/vault_tec/pristine,
+/turf/open/floor/plasteel/ms13/white,
+/area/ms13/underground/vault_atrium_upper)
 "lAY" = (
 /obj/structure/window/reinforced/tinted{
 	dir = 4;
@@ -23385,10 +23409,6 @@
 /obj/effect/mapping_helpers/sunlight/roofSetter/wood,
 /turf/open/floor/wood/ms13,
 /area/ms13/sunny_dale)
-"qKT" = (
-/obj/structure/closet/crate/ms13/cash_register,
-/turf/open/floor/plasteel/ms13/white,
-/area/ms13/underground/vault_atrium_upper)
 "qLb" = (
 /obj/structure/table/low_wall/brick,
 /obj/effect/decal/cleanable/glass{
@@ -24102,6 +24122,10 @@
 /obj/machinery/door/unpowered/wooddoor,
 /turf/open/floor/plasteel/ms13/teal/_dirty,
 /area/ms13/sunny_dale)
+"rlN" = (
+/obj/structure/closet/crate/ms13/vault_tec/compact,
+/turf/open/floor/plasteel/ms13/white,
+/area/ms13/underground/vault_atrium_upper)
 "rmF" = (
 /obj/structure/table/low_wall/brick,
 /obj/structure/window/fulltile/ms13/glass,
@@ -26064,7 +26088,7 @@
 /turf/open/floor/plasteel/ms13,
 /area/ms13/underground/bos)
 "sDH" = (
-/obj/structure/rack,
+/obj/structure/closet/crate/ms13/vault_tec/long,
 /turf/open/floor/plasteel/ms13/white,
 /area/ms13/underground/vault_atrium_upper)
 "sDK" = (
@@ -26376,12 +26400,6 @@
 /obj/structure/flora/grass/jungle/b,
 /turf/open/floor/plating/ground/mountain,
 /area/ms13/underground/mountain)
-"sQF" = (
-/obj/structure/closet/crate/ms13/footlocker{
-	dir = 8
-	},
-/turf/open/floor/plasteel/ms13/white,
-/area/ms13/underground/vault_atrium_upper)
 "sRv" = (
 /obj/structure/table/low_wall/metal/rust,
 /obj/structure/window/fulltile/ms13/glass,
@@ -27577,6 +27595,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plasteel/ms13/white/dirty,
 /area/ms13/sunny_dale)
+"tMI" = (
+/obj/structure/closet/crate/ms13/vault_tec/compact/pristine,
+/turf/open/floor/plasteel/ms13/white,
+/area/ms13/underground/vault_atrium_upper)
 "tMM" = (
 /obj/structure/table/ms13/metal,
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
@@ -28392,7 +28414,7 @@
 /turf/open/floor/plasteel/ms13/blue/_dirty,
 /area/ms13/sunny_dale)
 "utn" = (
-/obj/structure/closet/crate/ms13/vault_tec,
+/obj/machinery/telecomms/server/presets/common,
 /turf/open/floor/plasteel/ms13/white,
 /area/ms13/underground/vault_atrium_upper)
 "utw" = (
@@ -33275,7 +33297,7 @@
 /turf/open/floor/plasteel/ms13,
 /area/ms13/underground/bos)
 "xQt" = (
-/obj/structure/closet/crate/ms13/vault_tec/big,
+/obj/structure/closet/crate/ms13/vault_tec/big/pristine,
 /turf/open/floor/plasteel/ms13/white,
 /area/ms13/underground/vault_atrium_upper)
 "xQA" = (
@@ -118819,10 +118841,10 @@ afK
 iaj
 unK
 unK
-unK
-xQt
+hGz
+weS
 sDH
-sDH
+kZj
 iaj
 iaj
 wnx
@@ -119119,10 +119141,10 @@ afK
 afK
 afK
 iaj
+gAK
+bsz
 gUD
-gUD
-gUD
-gUD
+weS
 gUD
 gUD
 gUD
@@ -119421,11 +119443,11 @@ afK
 afK
 afK
 iaj
-gAK
+unK
 gUD
 gUD
-utn
-jcl
+gQN
+gUD
 gUD
 gUD
 gUD
@@ -119726,9 +119748,9 @@ iaj
 utn
 gUD
 gUD
+weS
 gUD
 gUD
-xQt
 gUD
 gUD
 gUD
@@ -120025,12 +120047,12 @@ afK
 afK
 afK
 iaj
-qKT
+utn
 gUD
 gUD
-gUD
-gUD
-gUD
+weS
+tMI
+xQt
 gUD
 gUD
 gUD
@@ -120328,11 +120350,11 @@ afK
 afK
 iaj
 iaj
-sQF
-unK
-unK
-unK
-sDH
+utn
+utn
+weS
+lAU
+rlN
 jcl
 xQt
 ylm
